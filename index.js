@@ -1,7 +1,7 @@
 const express = require("express");
-const connections=require("./config/connectdb")
-const authRoute=require("./routes/auth.route")
-const productRoute=require("./routes/product.route")
+const connections=require("./src/config/connectdb")
+const authRoute=require("./src/routes/auth.route")
+const productRoute=require("./src/routes/product.route")
 const cors=require("cors")
 
 
